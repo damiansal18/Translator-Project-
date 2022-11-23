@@ -1,0 +1,3 @@
+main.o: main.cpp scanner.h mparser.h
+scanner.o: scanner.cpp scanner.h
+mparser.o: mparser.cpp scanner.h
